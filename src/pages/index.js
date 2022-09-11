@@ -1,11 +1,11 @@
-import DarkTheme from '../layouts/Dark';
+import LightTheme from '../layouts/Light';
 
 import Homepage1 from './home/home1-light';
 
 export default function Home() {
   return (
-    <DarkTheme>
+    <LightTheme>
       <Homepage1 />
-    </DarkTheme>
+    </LightTheme>
   );
 }
