@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutUs2 from '../../components/About-us2';
+import AboutUs1 from '../../components/About-us1';
 import BlogsTwoColumnSlider from '../../components/Blogs-two-column-slider';
 import CallToAction from '../../components/Call-to-action';
 import Clients1 from '../../components/Clients1';
@@ -53,7 +53,7 @@ const Homepage1 = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider1 sliderRef={fixedSlider} />
       <div ref={MainContent} className='main-content'>
-        <AboutUs2 skillsTheme='light' />
+        <AboutUs1 />
         <Services1 />
 
         <PortfolioCustomColumn column={3} filterPosition='center' />
