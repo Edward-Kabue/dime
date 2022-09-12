@@ -74,13 +74,13 @@ const BlogsTwoColumnSlider = () => {
                         </Link>
                       </div>
                       <h6 className='custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           The Start-Up Ultimate Guide to Make Your WordPress
                           Journal.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           <a className='simple-btn'>Read More</a>
                         </Link>
                       </div>
@@ -111,13 +111,13 @@ const BlogsTwoColumnSlider = () => {
                         </Link>
                       </div>
                       <h6 className='custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           The Start-Up Ultimate Guide to Make Your WordPress
                           Journal.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           <a className='simple-btn'>Read More</a>
                         </Link>
                       </div>
@@ -148,13 +148,13 @@ const BlogsTwoColumnSlider = () => {
                         </Link>
                       </div>
                       <h6 className='custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           The Start-Up Ultimate Guide to Make Your WordPress
                           Journal.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           <a className='simple-btn'>Read More</a>
                         </Link>
                       </div>
@@ -185,13 +185,13 @@ const BlogsTwoColumnSlider = () => {
                         </Link>
                       </div>
                       <h6 className='custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           The Start-Up Ultimate Guide to Make Your WordPress
                           Journal.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
-                        <Link href='/blog-details/blog-details-dark'>
+                        <Link href='/'>
                           <a className='simple-btn'>Read More</a>
                         </Link>
                       </div>
