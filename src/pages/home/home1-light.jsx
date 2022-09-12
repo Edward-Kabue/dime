@@ -14,6 +14,7 @@ import PortfolioCustomColumn from '../../components/Portfolio-custom-column';
 import Works1Slider from '../../components/Works1-slider';
 import LightTheme from '../../layouts/Light';
 import appData from '../../data/app.json';
+import Services4 from '../../components/Services4';
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -54,7 +55,7 @@ const Homepage1 = () => {
       <IntroWithSlider1 sliderRef={fixedSlider} />
       <div ref={MainContent} className='main-content'>
         <AboutUs1 />
-        <Services1 />
+        <Services4 withPadding />
 
         <PortfolioCustomColumn column={3} filterPosition='center' />
         {/* <VideoWithTestimonials />
