@@ -15,7 +15,9 @@ const BlogsTwoColumnSlider = () => {
           <h3 className='wow' data-splitting>
             Our Blogs.
           </h3>
-          <span className='tbg'>Knowledge base</span>
+          <span className='tbg' style='font-size: 150px;'>
+            Knowledge base
+          </span>
         </div>
         <div className='row'>
           <div className='col-12'>
