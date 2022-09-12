@@ -85,40 +85,18 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
               </div>
             </li> */}
-
-            <li className='nav-item dropdown' onClick={handleDropdown}>
-              <span
-                className='nav-link dropdown-toggle'
-                data-toggle='dropdown'
-                role='button'
-                aria-haspopup='true'
-                aria-expanded='false'
-              >
-                Showcases
-              </span>
-              <div className='dropdown-menu'>
-                <Link href='/showcase/showcase-dark'>
-                  <a className='dropdown-item'>Full Screen</a>
-                </Link>
-                <Link href='/showcase2/showcase2-dark'>
-                  <a className='dropdown-item'>Creative Carousel</a>
-                </Link>
-                <Link href='/showcase3/showcase3-dark'>
-                  <a className='dropdown-item'>Radius Carousel</a>
-                </Link>
-                <Link href='/showcase4/showcase4-dark'>
-                  <a className='dropdown-item'>Columns Carousel</a>
-                </Link>
-                <Link href='/showcase5/showcase5-dark'>
-                  <a className='dropdown-item'>Boxed Carousel</a>
-                </Link>
-              </div>
-            </li>
             <li className='nav-item'>
               <Link href='/about/about-light'>
                 <a className='nav-link'>About</a>
               </Link>
             </li>
+
+            <li className='nav-item'>
+              <Link href='/'>
+                <a className='nav-link'> Services</a>
+              </Link>
+            </li>
+
             <li className='nav-item dropdown' onClick={handleDropdown}>
               <span
                 className='nav-link dropdown-toggle'

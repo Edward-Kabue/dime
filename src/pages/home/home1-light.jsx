@@ -62,7 +62,7 @@ const Homepage1 = () => {
         <Clients1 theme='light' />
         <BlogsTwoColumnSlider />
         <CallToAction theme='light' />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </LightTheme>
   );
