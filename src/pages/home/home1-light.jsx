@@ -57,8 +57,8 @@ const Homepage1 = () => {
         <Services1 />
 
         <PortfolioCustomColumn column={3} filterPosition='center' />
-        <VideoWithTestimonials />
-        <SkillsCircle theme='light' subBG />
+        {/* <VideoWithTestimonials />
+        <SkillsCircle theme='light' subBG /> */}
         <Clients1 theme='light' />
         <BlogsTwoColumnSlider />
         <CallToAction theme='light' />
