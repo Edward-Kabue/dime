@@ -6,23 +6,24 @@
   "smallTitle": "About Us",
   "title": { "first": "We are more than just", "second": "a digital agency." },
   "content": "Dimetech Group is a full-service digital and media content service provider based in Kenya. We combine creativity, technological trends, and strategic planning to help businesses flourish in this fast-paced digital era. With technological expertise and analytical know-how, our team of curious, creative, and technical experts provide support to help businesses in the digital transformation of their business models. We are driven by passion to sustainably improve digital experiences in all business areas. We implement digital projects, harness innovation, and bring efficiency to business processes and system landscapes.",
+  "method": "Our method",
   "features": [
     {
       "id": 1,
-      "icon": "gleam",
-      "name": { "first": "Pixel", "second": "Perfect" },
+
+      "name": { "first": "RESEARCH" },
       "wowDelay": ".3s"
     },
     {
       "id": 2,
-      "icon": "paint-bucket",
-      "name": { "first": "Creative", "second": "Design" },
+
+      "name": { "first": "REFLECT" },
       "wowDelay": ".5s"
     },
     {
       "id": 3,
-      "icon": "medal",
-      "name": { "first": "Heigh", "second": "Perfomance" },
+
+      "name": { "first": "CREATE" },
       "wowDelay": ".8s"
     }
   ]

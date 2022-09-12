@@ -34,6 +34,11 @@ const AboutUs1 = () => {
                   {AboutUs1Date.content}
                 </p>
               </Split>
+              <Split>
+                <h6 className='words chars splitting wow txt' data-splitting>
+                  {AboutUs1Date.method}
+                </h6>
+              </Split>
               <div className='ftbox mt-30'>
                 <ul>
                   {AboutUs1Date.features.map((feature) => (
