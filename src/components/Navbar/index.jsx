@@ -97,7 +97,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
 
-            <li className='nav-item dropdown' onClick={handleDropdown}>
+            {/* <li className='nav-item dropdown' onClick={handleDropdown}>
               <span
                 className='nav-link dropdown-toggle'
                 data-toggle='dropdown'
@@ -121,7 +121,7 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className='dropdown-item'>Pinterest List</a>
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <Link href='/contact/contact-light'>
                 <a className='nav-link'>Contact</a>
