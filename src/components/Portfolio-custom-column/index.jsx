@@ -81,7 +81,7 @@ const PortfolioCustomColumn = ({
                 data-wow-delay='.4s'
               >
                 <div className='item-img'>
-                  <Link href='/project-details2/project-details2-dark'>
+                  <Link href='/'>
                     <a className='imago wow'>
                       <img src={item.image} alt='image' />
                       <div className='item-img-overlay'></div>
@@ -93,7 +93,7 @@ const PortfolioCustomColumn = ({
                   <span>
                     {item.tags.map((tag, index) => (
                       <React.Fragment key={index * 3}>
-                        <Link href='/works4/works4-dark'>{tag}</Link>
+                        <Link href='/'>{tag}</Link>
                         {index == item.tags.length - 1 ? '' : ','}
                       </React.Fragment>
                     ))}
