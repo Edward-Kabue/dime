@@ -42,7 +42,7 @@ const AboutDark = () => {
       <Services4 withPadding withOutTitle />
       {/* <VideoWithTestimonials /> */}
       {/* <SkillsCircle subBG theme="light" /> */}
-      <Team1 />
+      {/* <Team1 /> */}
       <MinimalArea />
       <Clients1 theme='light' />
       <CallToAction theme='light' subBG />
