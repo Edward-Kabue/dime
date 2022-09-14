@@ -20,7 +20,7 @@ const CallToAction = ({ img, theme, subBG }) => {
                   className='wow words custom-font chars splitting'
                   data-splitting
                 >
-                  about your <b>next project</b>.
+                  Got a digital challenge<b>you&apos;re Looking to tackle</b>?
                 </h2>
               </Split>
             </div>

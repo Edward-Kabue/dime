@@ -1379,8 +1379,20 @@ body {
   font-size: 10vw;
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
-  opacity: 0.3;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 98%);
+  opacity: 0.6;
+}
+.tbg-blog {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 9vw;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 98%);
+  opacity: 0.6;
 }
 .sec-head.tr-head {
   text-align: right;
@@ -5376,13 +5388,13 @@ body {
 
 .call-action .content h2 {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 2vw;
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #0c0f16;
-  color: transparent;
+  color: #0000;
 }
 .call-action .content h2 span {
   color: transparent;
