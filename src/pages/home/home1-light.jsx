@@ -6,12 +6,9 @@ import Clients1 from '../../components/Clients1';
 import Footer from '../../components/Footer';
 import IntroWithSlider1 from '../../components/Intro-with-slider1';
 import Navbar from '../../components/Navbar';
-import Numbers1 from '../../components/Numbers';
-import Services1 from '../../components/Services1';
-import SkillsCircle from '../../components/Skills-circle';
-import VideoWithTestimonials from '../../components/Video-with-testimonials';
+
 import PortfolioCustomColumn from '../../components/Portfolio-custom-column';
-import Works1Slider from '../../components/Works1-slider';
+
 import LightTheme from '../../layouts/Light';
 import appData from '../../data/app.json';
 import Services4 from '../../components/Services4';

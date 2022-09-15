@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutHeader from '../../components/About-header';
-import AboutIntro from '../../components/About-intro';
+
 import CallToAction from '../../components/Call-to-action';
 import Clients1 from '../../components/Clients1';
 import Footer from '../../components/Footer';
@@ -44,7 +44,6 @@ const AboutDark = () => {
       <Navbar nr={navbarRef} theme='themeL' />
       <AboutHeader sliderRef={fixedHeader} />
       <div className='main-content' ref={MainContent}>
-        <AboutIntro />
         <Services4 withPadding withOutTitle />
         {/* <VideoWithTestimonials /> */}
         {/* <SkillsCircle subBG theme="light" /> */}
