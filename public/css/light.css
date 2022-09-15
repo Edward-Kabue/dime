@@ -1388,7 +1388,7 @@ body {
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 9vw;
+  font-size: 7vw;
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 1px rgba(0, 0, 0, 98%);
@@ -1532,6 +1532,9 @@ body {
 }
 .btn-curve.btn-blc {
   background: #1e1e1e;
+}
+.btn-curve.btn-blc .curve {
+  border-radius: 12px;
 }
 .btn-curve.btn-blc:after {
   background: #fff;
@@ -3608,8 +3611,9 @@ body {
 .services .item {
   text-align: center;
   padding: 60px;
-  background: #efefef;
+  background: #030395;
   position: relative;
+  border-radius: 12px;
 }
 .services .item .icon {
   color: #2a2f87;
@@ -3618,6 +3622,7 @@ body {
 }
 .services .item h6 {
   margin-bottom: 15px;
+  color: white;
 }
 
 .min-area .img {

@@ -1,6 +1,7 @@
 import React from 'react';
 import Split from '../Split';
 import services4Data from '../../data/sections/services4.json';
+import Link from 'next/link';
 
 const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
   return (
@@ -13,7 +14,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
         {!withOutTitle && (
           <div className='sec-head custom-font text-center'>
             <h6 className='wow fadeIn' data-wow-delay='.5s'>
-              Best Features
+              We are good at what we do
             </h6>
             <Split>
               <h3 className='wow words chars splitting' data-splitting>
@@ -38,6 +39,16 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
 
                 <img src={item.icon} />
                 <p>{item.content}</p>
+
+                <Link href={item.Link}>
+                  <a
+                    className={`btn-curve btn-blc curve
+                     wow fadeInUp`}
+                    data-wow-delay='.5s'
+                  >
+                    <span>Learn more</span>
+                  </a>
+                </Link>
               </div>
             </div>
           ))}
