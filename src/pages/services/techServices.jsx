@@ -12,6 +12,7 @@ const Contact = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
+  const logoRef = React.useRef(null);
   React.useEffect(() => {
     document.querySelector('body').classList.add('menubarblack');
     setInterval(() => {
