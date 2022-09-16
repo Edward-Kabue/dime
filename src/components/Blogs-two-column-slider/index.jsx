@@ -65,7 +65,7 @@ const BlogsTwoColumnSlider = () => {
                         <a href='#0' className='author'>
                           <span>by / Admin</span>
                         </a>
-                        <Link href='/blog/blog-dark'>
+                        <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
                               <i>06</i> Aug
@@ -102,7 +102,7 @@ const BlogsTwoColumnSlider = () => {
                         <a href='#0' className='author'>
                           <span>by / Admin</span>
                         </a>
-                        <Link href='/blog/blog-dark'>
+                        <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
                               <i>08</i> Aug
@@ -139,7 +139,7 @@ const BlogsTwoColumnSlider = () => {
                         <a href='#0' className='author'>
                           <span>by / Admin</span>
                         </a>
-                        <Link href='/blog/blog-dark'>
+                        <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
                               <i>07</i> Aug
@@ -176,7 +176,7 @@ const BlogsTwoColumnSlider = () => {
                         <a href='#0' className='author'>
                           <span>by / Admin</span>
                         </a>
-                        <Link href='/blog/blog-dark'>
+                        <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
                               <i>10</i> Aug

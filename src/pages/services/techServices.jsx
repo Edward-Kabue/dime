@@ -1,8 +1,11 @@
 import React from 'react';
-import ServiceHeader from '../../components/Service-header';
-import ContactWithMap from '../../components/Contact-with-map';
-import Services2 from '../../components/Services2/index';
+
 import Navbar from '../../components/Navbar';
+
+import ServiceHeader from '../../components/Service-header';
+
+import Services2 from '../../components/Services2/index';
+
 import LightTheme from '../../layouts/Light';
 
 const Contact = () => {
@@ -35,9 +38,12 @@ const Contact = () => {
   }, []);
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} theme='themeL' />
-      <ServiceHeader sliderRef={fixedHeader} />
-      <div className='main-content' ref={MainContent}>
+      <Navbar nr={navbarRef} lr={logoRef} />
+      <ServiceHeader />
+      <div className='main-content'>
+        <Navbar nr={navbarRef} theme='themeL' />
+        <ServiceHeader sliderRef={fixedHeader} />
+
         <Services2 />
       </div>
     </LightTheme>

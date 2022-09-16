@@ -11,7 +11,7 @@ import Services4 from '../../components/Services4';
 import LightTheme from '../../layouts/Light';
 import appData from '../../data/app.json';
 
-const AboutDark = () => {
+const About = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
@@ -57,4 +57,4 @@ const AboutDark = () => {
   );
 };
 
-export default AboutDark;
+export default About;

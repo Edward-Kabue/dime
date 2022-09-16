@@ -67,7 +67,7 @@ const ClientsBrands = ({ subBG, theme }) => {
               >
                 <div className='img'>
                   <img
-                    src={theme == 'dark' ? item.darkImage : item.lightImage}
+                    src={theme == '' ? item.Image : item.lightImage}
                     alt=''
                   />
                 </div>

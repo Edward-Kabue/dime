@@ -30,7 +30,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <img ref={lr} src={`${appData.lightLogo}`} alt='logo' />
               )
             ) : (
-              <img ref={lr} src={`${appData.darkLogo}`} alt='logo' />
+              <img ref={lr} src={`${appData.Logo}`} alt='logo' />
             )}
           </a>
         </Link>
@@ -68,19 +68,19 @@ const Navbar = ({ lr, nr, theme }) => {
                 Home
               </span>
               <div className="dropdown-menu">
-                <Link href="/home/home1-dark">
+                <Link href="/home/home1-">
                   <a className="dropdown-item">Main Home</a>
                 </Link>
-                <Link href="/home/home2-dark">
+                <Link href="/home/home2-">
                   <a className="dropdown-item">Creative Studio</a>
                 </Link>
-                <Link href="/home/home3-dark">
+                <Link href="/home/home3-">
                   <a className="dropdown-item">Business Startup</a>
                 </Link>
-                <Link href="/home/home4-dark">
+                <Link href="/home/home4-">
                   <a className="dropdown-item">One Page</a>
                 </Link>
-                <Link href="/home/home5-dark">
+                <Link href="/home/home5-">
                   <a className="dropdown-item">Freelancer</a>
                 </Link>
               </div>
@@ -108,16 +108,16 @@ const Navbar = ({ lr, nr, theme }) => {
                 portfolio
               </span>
               <div className='dropdown-menu'>
-                <Link href='/works/works-dark'>
+                <Link href='/works/works-'>
                   <a className='dropdown-item'>Mouse Info</a>
                 </Link>
-                <Link href='/works2/works2-dark'>
+                <Link href='/works2/works2-'>
                   <a className='dropdown-item'>Masonry 3 Columns</a>
                 </Link>
-                <Link href='/works3/works3-dark'>
+                <Link href='/works3/works3-'>
                   <a className='dropdown-item'>Masonry 2 Columns</a>
                 </Link>
-                <Link href='/works4/works4-dark'>
+                <Link href='/works4/works4-'>
                   <a className='dropdown-item'>Pinterest List</a>
                 </Link>
               </div>
