@@ -27,7 +27,7 @@ const BlogStanderd = () => {
                       <div className='tags'>
                         <a href='#0'>WordPress</a>
                         <a href='#0'>Themeforest</a>
-                        <a href='#0'>Avo</a>
+                        <a href='#0'></a>
                       </div>
                       <h4 className='title'>
                         <Link href='/'>

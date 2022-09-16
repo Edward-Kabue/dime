@@ -9,7 +9,7 @@ import appData from '../../data/app.json';
 import Services2 from '../../components/Services2';
 import ServiceHeader from '../../components/Service-header';
 
-const AboutDark = () => {
+const About = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
   React.useEffect(() => {
@@ -23,7 +23,7 @@ const AboutDark = () => {
     window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add('nav-scroll');
-        logo.setAttribute('src', appData.darkLogo);
+        logo.setAttribute('src', appData.Logo);
       } else {
         navbar.classList.remove('nav-scroll');
         logo.setAttribute('src', appData.lightLogo);
@@ -44,4 +44,4 @@ const AboutDark = () => {
   );
 };
 
-export default AboutDark;
+export default About;

@@ -41,7 +41,7 @@ const Clients1 = ({ theme, subBG }) => {
                         {theme === 'light' ? (
                           <img src={item.lightImage} alt='' />
                         ) : (
-                          <img src={item.darkImage} alt='' />
+                          <img src={item.Image} alt='' />
                         )}
                         <Split>
                           <a
@@ -91,7 +91,7 @@ const Clients1 = ({ theme, subBG }) => {
                         {theme === 'light' ? (
                           <img src={item.lightImage} alt='' />
                         ) : (
-                          <img src={item.darkImage} alt='' />
+                          <img src={item.Image} alt='' />
                         )}
                         <Split>
                           <a

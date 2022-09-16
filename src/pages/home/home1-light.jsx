@@ -38,7 +38,7 @@ const Homepage1 = () => {
     window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add('nav-scroll');
-        logo.setAttribute('src', appData.darkLogo);
+        logo.setAttribute('src', appData.Logo);
       } else {
         navbar.classList.remove('nav-scroll');
         logo.setAttribute('src', appData.lightLogo);
