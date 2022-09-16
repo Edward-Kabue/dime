@@ -10,7 +10,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-monitor"></span>
               <h6>
-                Website <br /> Development
+                 Tv & Social <br /> media adverts
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -29,7 +29,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-camera"></span>
               <h6>
-                Web <br /> Hosting 
+                Corporate <br /> Videos
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -48,7 +48,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-phone"></span>
               <h6>
-                Mobile App <br /> Devlopment
+                Digital Media <br /> Content
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -69,8 +69,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-diskette"></span>
               <h6>
-              IT Infrastructure and <br /> Security Consulting
-              </h6>
+              Documentaries</h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
                   <a className="more">
@@ -88,7 +87,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-help2"></span>
               <h6>
-                E-commerce  <br /> Solutions
+                Corporate  <br /> Photography
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -107,7 +106,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-arc"></span>
               <h6>
-                Customer Relationship  <br /> Software
+                Live  <br /> Streaming
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">

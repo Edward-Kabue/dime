@@ -10,7 +10,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-monitor"></span>
               <h6>
-                Website <br /> Development
+                Search Engine <br /> Optimization
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -29,7 +29,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-camera"></span>
               <h6>
-                Web <br /> Hosting 
+                Social Media <br /> Management 
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -48,7 +48,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-phone"></span>
               <h6>
-                Mobile App <br /> Devlopment
+                Social Media <br /> Advertising
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -69,7 +69,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-diskette"></span>
               <h6>
-              IT Infrastructure and <br /> Security Consulting
+              Social Media<br /> Audit
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -88,7 +88,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-help2"></span>
               <h6>
-                E-commerce  <br /> Solutions
+                Lead  <br /> Generation
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -107,7 +107,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-arc"></span>
               <h6>
-                Customer Relationship  <br /> Software
+                Data Analytics  <br />  & insight
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
