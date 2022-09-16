@@ -1,9 +1,8 @@
 import React from 'react';
-import ServiceHeader from '../../components/Service-header';
-import ContactWithMap from '../../components/Contact-with-map';
-import Services6 from '../../components/Services6/index';
-import Navbar from '../../components/Navbar';
-import LightTheme from '../../layouts/Light';
+import ServiceHeader from '../components/Service-header';
+import Services5 from '../components/Services5/index';
+import Navbar from '../components/Navbar';
+import LightTheme from '../layouts/Light';
 
 const Contact = () => {
   const fixedHeader = React.useRef(null);
@@ -38,7 +37,7 @@ const Contact = () => {
       <Navbar nr={navbarRef} theme='themeL' />
       <ServiceHeader sliderRef={fixedHeader} />
       <div className='main-content' ref={MainContent}>
-        <Services6 />
+        <Services5 />
       </div>
     </LightTheme>
   );

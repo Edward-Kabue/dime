@@ -12,8 +12,6 @@ import ServiceHeader from '../../components/Service-header';
 const About = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
-  const fixedHeader = React.useRef(null);
-  const MainContent = React.useRef(null);
   React.useEffect(() => {
     var navbar = navbarRef.current,
       logo = logoRef.current;

@@ -1,14 +1,20 @@
 import React from 'react';
-import ServiceHeader from '../../components/Service-header';
-import ContactWithMap from '../../components/Contact-with-map';
-import Services5 from '../../components/Services5/index';
-import Navbar from '../../components/Navbar';
-import LightTheme from '../../layouts/Light';
+
+import Navbar from '../components/Navbar';
+
+import ServiceHeader from '../components/Service-header';
+
+import Services2 from '../components/Services2/index';
+
+import LightTheme from '../layouts/Light';
 
 const Contact = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
+  const logoRef = React.useRef(null);
+  // const sliderRef = React.useRef(null);
+  
   React.useEffect(() => {
     document.querySelector('body').classList.add('menubarblack');
     setInterval(() => {
@@ -35,12 +41,12 @@ const Contact = () => {
   }, []);
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} theme='themeL' />
-      <ServiceHeader sliderRef={fixedHeader} />
-      <div className='main-content' ref={MainContent}>
-        <Services5 />
-      </div>
-    </LightTheme>
+    <Navbar nr={navbarRef} theme='themeL' />
+    <ServiceHeader sliderRef={fixedHeader} />
+    <div className='main-content' ref={MainContent}>
+      <Services2 />
+    </div>
+  </LightTheme>
   );
 };
 
