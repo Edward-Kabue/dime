@@ -10,7 +10,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-monitor"></span>
               <h6>
-                Website <br /> Developments
+                Website <br /> Development
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -29,7 +29,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-camera"></span>
               <h6>
-                Product <br /> Photography
+                 <br /> 
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
