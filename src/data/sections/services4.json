@@ -3,18 +3,18 @@
     "id": 1,
     "title": "Technology and Digital Solutions",
     "icon": "/img/performance.png",
-    "Link": "/technology"
+    "Link": "services/techServices"
   },
   {
     "id": 2,
     "title": "Content, and creative design",
     "icon": "/img/conent.png",
-    "Link": "/content"
+    "Link": "services/contentServices"
   },
   {
     "id": 3,
     "title": "Digital Performance and User experience",
     "icon": "/img/tech.png",
-    "Link": "/digital"
+    "Link": "services/digitalServices"
   }
 ]
