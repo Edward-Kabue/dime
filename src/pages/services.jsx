@@ -1,12 +1,12 @@
 import React from 'react';
 
-import CallToAction from '../../components/Call-to-action';
+import CallToAction from '../components/Call-to-action';
 
-import Navbar from '../../components/Navbar';
-import Services4 from '../../components/Services4';
+import Navbar from '../components/Navbar';
+import Services4 from '../components/Services4';
 
-import LightTheme from '../../layouts/Light';
-import appData from '../../data/app.json';
+import LightTheme from '../layouts/Light';
+import appData from '../data/app.json';
 
 const About = () => {
   const navbarRef = React.useRef(null);
