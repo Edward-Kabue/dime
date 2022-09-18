@@ -3,6 +3,8 @@ import ServiceHeader from '../../components/Service-header';
 import Services5 from '../../components/Services5/index';
 import Navbar from '../../components/Navbar';
 import LightTheme from '../../layouts/Light';
+import ServicesBreadcrumb from '../../components/Services-breadcrumb';
+import MinimalArea from '../../components/Minimal-area';
 
 const Services = () => {
   const fixedHeader = React.useRef(null);
@@ -35,9 +37,11 @@ const Services = () => {
   return (
     <LightTheme>
       <Navbar nr={navbarRef} theme='themeL' />
-      <ServiceHeader sliderRef={fixedHeader} />
+      <ServicesBreadcrumb sliderRef={fixedHeader} />
       <div className='main-content' ref={MainContent}>
-        <Services5 />
+        <MinimalArea />
+        <MinimalArea />
+        <MinimalArea />
       </div>
     </LightTheme>
   );
