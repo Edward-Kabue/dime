@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Reliability",
+    "icon": "pe-7s-gleam",
+    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+  },
+  {
+    "id": 2,
+    "title": "Innovation ",
+    "icon": "pe-7s-phone",
+    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+  },
+  {
+    "id": 3,
+    "title": "Teamwork",
+    "icon": "pe-7s-magic-wand",
+    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+  },
+  {
+    "id": 3,
+    "title": "Scalability",
+    "icon": "pe-7s-magic-wand",
+    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+  },
+  {
+    "id": 3,
+    "title": "Honesty and transparency",
+    "icon": "pe-7s-magic-wand",
+    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+  },
+  {
+    "id": 3,
+    "title": "Sustainability",
+    "icon": "pe-7s-magic-wand",
+    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+  }
+]
