@@ -1,19 +1,26 @@
 import React from 'react';
-import ServiceHeader from '../../components/Service-header';
-import Services5 from '../../components/Services5/index';
-import Navbar from '../../components/Navbar';
 import LightTheme from '../../layouts/Light';
-import ServicesBreadcrumb from '../../components/Services-breadcrumb';
-import MinimalArea from '../../components/Minimal-area';
-import CallToAction from '../../components/Call-to-action';
-import Footer from '../../components/Footer';
+import Navbar from '../../components/Navbar';
+import WorksThreeColumnWithFilter from '../../components/Works-three-column-with-filter';
+import SmallFooter from '../../components/Small-footer';
+import addParlx from '../../common/addParlx';
+import PortfolioBreadcrumb from '../../components/portfolio-breadcrumb';
 
-const Services = () => {
+const Works2Light = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
+  const logoRef = React.useRef(null);
+
+  const [pageLoaded, setPageLoaded] = React.useState(false);
   React.useEffect(() => {
     document.querySelector('body').classList.add('menubarblack');
+    setPageLoaded(true);
+    if (pageLoaded) {
+      addParlx();
+    }
+  }, [pageLoaded]);
+  React.useEffect(() => {
     setInterval(() => {
       if (fixedHeader.current) {
         var slidHeight = fixedHeader.current.offsetHeight;
@@ -35,20 +42,18 @@ const Services = () => {
         navbar.classList.remove('nav-scroll');
       }
     });
-  }, []);
+  }, [fixedHeader, MainContent, navbarRef]);
+
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} theme='themeL' />
-      <ServicesBreadcrumb sliderRef={fixedHeader} />
-      <div className='main-content' ref={MainContent}>
-        <MinimalArea />
-        <MinimalArea />
-        <MinimalArea />
-        <CallToAction theme='light' subBG />
-        <Footer />
+      <Navbar nr={navbarRef} lr={logoRef} theme='themeL' />
+      <PortfolioBreadcrumb sliderRef={fixedHeader} />
+      <div ref={MainContent} className='main-content'>
+        <WorksThreeColumnWithFilter filterPosition='right' />
+        <SmallFooter />
       </div>
     </LightTheme>
   );
 };
 
-export default Services;
+export default Works2Light;

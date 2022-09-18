@@ -55,7 +55,7 @@ const AboutDark = () => {
 
         <Clients1 theme='light' />
         <CallToAction theme='light' subBG />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </LightTheme>
   );
