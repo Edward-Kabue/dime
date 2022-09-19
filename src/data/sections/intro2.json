@@ -2,24 +2,24 @@
   {
     "id": 1,
     "title": {
-      "first": "Unique",
-      "second": "brand Stories"
+      "first": "Let us showcase",
+      "second": "Your brand to the world"
     },
     "image": "/img/slid/01.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "Digital",
-      "second": "Design Awards"
+      "first": "One stop shop",
+      "second": "For all your digital needs"
     },
     "image": "/img/slid/03.jpg"
   },
   {
     "id": 3,
     "title": {
-      "first": "Original",
-      "second": "Solutions"
+      "first": "Make your ",
+      "second": "Brand stand out"
     },
     "image": "/img/slid/02.jpg"
   }

@@ -1,36 +1,36 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
 
-const BlogStanderd = () => {
+const BlogStanderd = ({ posts }) => {
   return (
-    <section className='blog-pg section-padding pt-0'>
-      <div className='container'>
-        <div className='row justify-content-center'>
-          <div className='col-lg-11'>
-            <div className='posts'>
-              <div className='item mb-80'>
-                <div className='img'>
-                  <Link href='/'>
+    <section className="blog-pg section-padding pt-0">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-11">
+            <div className="posts">
+              <div className="item mb-80">
+                <div className="img">
+                  <Link href="/">
                     <a>
-                      <img src='/img/blog/b1.jpg' alt='' />
+                      <img src="/img/blog/b1.jpg" alt="" />
                     </a>
                   </Link>
                 </div>
-                <div className='content'>
-                  <div className='row'>
-                    <div className='col-10'>
-                      <a href='#0' className='date'>
-                        <span className='num'>07</span>
+                <div className="content">
+                  <div className="row">
+                    <div className="col-10">
+                      <a href="#0" className="date">
+                        <span className="num">07</span>
                         <span>August</span>
                       </a>
-                      <div className='tags'>
-                        <a href='#0'>WordPress</a>
-                        <a href='#0'>Themeforest</a>
-                        <a href='#0'></a>
+                      <div className="tags">
+                        <a href="#0">WordPress</a>
+                        <a href="#0">Themeforest</a>
+                        <a href="#0"></a>
                       </div>
-                      <h4 className='title'>
-                        <Link href='/'>
+                      <h4 className="title">
+                        <Link href="/">
                           <a>Build a Beautiful Blog With Ease</a>
                         </Link>
                       </h4>
@@ -43,35 +43,35 @@ const BlogStanderd = () => {
                         natural. However, things like people look miserable, if
                         these properties are connected.
                       </p>
-                      <Link href='/'>
-                        <a className='simple-btn mt-30'>Read More</a>
+                      <Link href="/">
+                        <a className="simple-btn mt-30">Read More</a>
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='item mb-80'>
-                <div className='img'>
-                  <Link href='/'>
+              <div className="item mb-80">
+                <div className="img">
+                  <Link href="/">
                     <a>
-                      <img src='/img/blog/b2.jpg' alt='' />
+                      <img src="/img/blog/b2.jpg" alt="" />
                     </a>
                   </Link>
                 </div>
-                <div className='content'>
-                  <div className='row'>
-                    <div className='col-10'>
-                      <a href='#0' className='date'>
-                        <span className='num'>07</span>
+                <div className="content">
+                  <div className="row">
+                    <div className="col-10">
+                      <a href="#0" className="date">
+                        <span className="num">07</span>
                         <span>August</span>
                       </a>
-                      <div className='tags'>
-                        <a href='#0'>WordPress</a>
-                        <a href='#0'>Themeforest</a>
-                        <a href='#0'>Avo</a>
+                      <div className="tags">
+                        <a href="#0">WordPress</a>
+                        <a href="#0">Themeforest</a>
+                        <a href="#0">Avo</a>
                       </div>
-                      <h4 className='title'>
-                        <Link href='/'>
+                      <h4 className="title">
+                        <Link href="/">
                           <a>Build a Beautiful Blog With Ease</a>
                         </Link>
                       </h4>
@@ -84,35 +84,35 @@ const BlogStanderd = () => {
                         natural. However, things like people look miserable, if
                         these properties are connected.
                       </p>
-                      <Link href='/'>
-                        <a className='simple-btn mt-30'>Read More</a>
+                      <Link href="/">
+                        <a className="simple-btn mt-30">Read More</a>
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='item mb-80'>
-                <div className='img'>
-                  <Link href='/'>
+              <div className="item mb-80">
+                <div className="img">
+                  <Link href="/">
                     <a>
-                      <img src='/img/blog/b3.jpg' alt='' />
+                      <img src="/img/blog/b3.jpg" alt="" />
                     </a>
                   </Link>
                 </div>
-                <div className='content'>
-                  <div className='row'>
-                    <div className='col-10'>
-                      <a href='#0' className='date'>
-                        <span className='num'>07</span>
+                <div className="content">
+                  <div className="row">
+                    <div className="col-10">
+                      <a href="#0" className="date">
+                        <span className="num">07</span>
                         <span>August</span>
                       </a>
-                      <div className='tags'>
-                        <a href='#0'>WordPress</a>
-                        <a href='#0'>Themeforest</a>
-                        <a href='#0'>Avo</a>
+                      <div className="tags">
+                        <a href="#0">WordPress</a>
+                        <a href="#0">Themeforest</a>
+                        <a href="#0">Avo</a>
                       </div>
-                      <h4 className='title'>
-                        <Link href=''>
+                      <h4 className="title">
+                        <Link href="">
                           <a>Build a Beautiful Blog With Ease</a>
                         </Link>
                       </h4>
@@ -125,35 +125,35 @@ const BlogStanderd = () => {
                         natural. However, things like people look miserable, if
                         these properties are connected.
                       </p>
-                      <Link href=''>
-                        <a className='simple-btn mt-30'>Read More</a>
+                      <Link href="">
+                        <a className="simple-btn mt-30">Read More</a>
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='item'>
-                <div className='img'>
-                  <Link href='/'>
+              <div className="item">
+                <div className="img">
+                  <Link href="/">
                     <a>
-                      <img src='/img/blog/b4.jpg' alt='' />
+                      <img src="/img/blog/b4.jpg" alt="" />
                     </a>
                   </Link>
                 </div>
-                <div className='content'>
-                  <div className='row'>
-                    <div className='col-10'>
-                      <a href='#0' className='date'>
-                        <span className='num'>07</span>
+                <div className="content">
+                  <div className="row">
+                    <div className="col-10">
+                      <a href="#0" className="date">
+                        <span className="num">07</span>
                         <span>August</span>
                       </a>
-                      <div className='tags'>
-                        <a href='#0'>WordPress</a>
-                        <a href='#0'>Themeforest</a>
-                        <a href='#0'>Avo</a>
+                      <div className="tags">
+                        <a href="#0">WordPress</a>
+                        <a href="#0">Themeforest</a>
+                        <a href="#0">Avo</a>
                       </div>
-                      <h4 className='title'>
-                        <Link href='/'>
+                      <h4 className="title">
+                        <Link href="/">
                           <a>Build a Beautiful Blog With Ease</a>
                         </Link>
                       </h4>
@@ -166,24 +166,24 @@ const BlogStanderd = () => {
                         natural. However, things like people look miserable, if
                         these properties are connected.
                       </p>
-                      <Link href='/'>
-                        <a className='simple-btn mt-30'>Read More</a>
+                      <Link href="/">
+                        <a className="simple-btn mt-30">Read More</a>
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className='pagination'>
-                <span className='active'>
-                  <a href='#0'>1</a>
+              <div className="pagination">
+                <span className="active">
+                  <a href="#0">1</a>
                 </span>
                 <span>
-                  <a href='#0'>2</a>
+                  <a href="#0">2</a>
                 </span>
                 <span>
-                  <a href='#0'>
-                    <i className='fas fa-angle-right'></i>
+                  <a href="#0">
+                    <i className="fas fa-angle-right"></i>
                   </a>
                 </span>
               </div>
@@ -192,7 +192,7 @@ const BlogStanderd = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default BlogStanderd;
+export default BlogStanderd
