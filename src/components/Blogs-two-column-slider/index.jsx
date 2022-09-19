@@ -68,15 +68,14 @@ const BlogsTwoColumnSlider = () => {
                         <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
-                              <i>06</i> Aug
+                              <i>06</i> Sept
                             </span>
                           </a>
                         </Link>
                       </div>
                       <h6 className='custom-font'>
                         <Link href='/'>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
+                        Responsive Sites Vs Mobile Apps.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
@@ -105,15 +104,14 @@ const BlogsTwoColumnSlider = () => {
                         <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
-                              <i>08</i> Aug
+                              <i>08</i> Sept
                             </span>
                           </a>
                         </Link>
                       </div>
                       <h6 className='custom-font'>
                         <Link href='/'>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
+                          Frequently Asked Web Design Questions.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
@@ -142,15 +140,14 @@ const BlogsTwoColumnSlider = () => {
                         <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
-                              <i>07</i> Aug
+                              <i>07</i> Sept
                             </span>
                           </a>
                         </Link>
                       </div>
                       <h6 className='custom-font'>
                         <Link href='/'>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
+                          Design Thinking-Usability Tests.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
@@ -179,15 +176,14 @@ const BlogsTwoColumnSlider = () => {
                         <Link href='/blog/blog-'>
                           <a className='date'>
                             <span>
-                              <i>10</i> Aug
+                              <i>10</i> Sept
                             </span>
                           </a>
                         </Link>
                       </div>
                       <h6 className='custom-font'>
                         <Link href='/'>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
+                          Making the most of your website in disruption.
                         </Link>
                       </h6>
                       <div className='btn-more custom-font'>
