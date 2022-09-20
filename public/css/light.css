@@ -3631,7 +3631,7 @@ body {
   position: relative;
   z-index: 3;
 }
-.min-area .img:after {
+/* .min-area .img:after {
   content: '';
   position: absolute;
   top: 0;
@@ -3640,7 +3640,7 @@ body {
   left: -300px;
   background: #efefef;
   z-index: -1;
-}
+} */
 
 .min-area .content {
   padding-left: 40px;
@@ -3670,7 +3670,6 @@ body {
   top: 2px;
 }
 .min-area .content ul.feat li {
-  padding: 0 0 30px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 .min-area .content ul.feat li:last-of-type {
@@ -3698,6 +3697,22 @@ body {
 .min-area .content ul.feat li p {
   font-size: 13px;
   padding-left: 45px;
+}
+.row-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  margin: 13px;
+  border-radius: 20px;
+  border-radius: 10px;
+}
+.row-services:hover {
+  background-color: #2a2f87;
 }
 
 /* ====================== [ End services ] ====================== */
@@ -6104,8 +6119,7 @@ body {
   .team {
     position: relative;
   }
-  .min-area .content,
-  .min-area .img {
+  .min-area .content {
     padding: 120px 0;
   }
   .services .rtwo > div:nth-of-type(2),
