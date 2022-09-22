@@ -88,7 +88,7 @@ const IntroWithSlider3 = () => {
                           </h1>
                         </Split>
                         {slide?.content && <p>{slide.content}</p>}
-                        <Link href="/works3/works3-">
+                        <Link href="/">
                           <a className="btn-curve btn-color btn-radius mt-30">
                             <span>Discover Work</span>
                           </a>
