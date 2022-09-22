@@ -151,21 +151,17 @@ const IntroWithSlider3 = () => {
             ></SwiperSlide>
             <SwiperSlide
               className="swiper-slide bg-img"
-              style={{ backgroundImage: 'url("/img/slid/02.jpg")' }}
+              style={{ backgroundImage: 'url("/img/slid/02.jpeg")' }}
               data-overlay-="6"
             ></SwiperSlide>
             <SwiperSlide
               className="swiper-slide bg-img"
-              style={{ backgroundImage: 'url("/img/slid/03.jpg")' }}
+              style={{ backgroundImage: 'url("/img/slid/03.jpeg")' }}
               data-overlay-="6"
             ></SwiperSlide>
           </Swiper>
         ) : null}
       </div>
-      <div
-        className="curve-bg bg-img"
-        style={{ backgroundImage: 'url("/img/business-bg.png")' }}
-      ></div>
 
       <div className="setone">
         <div
@@ -181,7 +177,6 @@ const IntroWithSlider3 = () => {
           <i className="fas fa-chevron-left"></i>
         </div>
       </div>
-      <div className="swiper-pagination custom-font" ref={paginationRef}></div>
     </header>
   )
 }

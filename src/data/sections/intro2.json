@@ -13,7 +13,7 @@
       "first": "One stop shop",
       "second": "For all your digital needs"
     },
-    "image": "/img/slid/03.jpg"
+    "image": "/img/slid/03.jpeg"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
       "first": "Make your ",
       "second": "Brand stand out"
     },
-    "image": "/img/slid/02.jpg"
+    "image": "/img/slid/02.jpeg"
   }
 ]

@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
+    "lightImage": "/img/clients/brands/light/9.png",
+    "Image": "/img/clients/brands//09.png",
+    "url": "https://www.kamemetv.co.ke/"
+  },
+  {
+    "id": 2,
     "lightImage": "/img/clients/brands/light/1.png",
     "Image": "/img/clients/brands//01.png",
     "url": "https://Kymba.de"
   },
   {
-    "id": 2,
-    "lightImage": "/img/clients/brands/light/2.png",
-    "Image": "/img/clients/brands//02.png",
-    "url": "https://b-sea.org/"
-  },
-  {
     "id": 3,
-    "lightImage": "/img/clients/brands/light/3.png",
+    "lightImage": "/img/clients/brands/light/11.jpg",
     "Image": "/img/clients/brands//03.png",
-    "url": "https://app.zurura.co.ke/"
+    "url": "https://www.mediamaxnetwork.co.ke/"
   },
   {
     "id": 4,
-    "lightImage": "/img/clients/brands/light/4.png",
+    "lightImage": "/img/clients/brands/light/10.jpg",
     "Image": "/img/clients/brands//04.png",
-    "url": ""
+    "url": "https://www.motorhub.co.ke/"
   },
   {
-    "id": 5,
-    "lightImage": "/img/clients/brands/light/5.png",
-    "Image": "/img/clients/brands//05.png",
-    "url": "https://arrowheadprintshop.business.site/"
-  },
-  {
-    "id": 6,
-    "lightImage": "/img/clients/brands/light/6.png",
-    "Image": "/img/clients/brands//06.png",
-    "url": "https://milele-home.com/"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "lightImage": "/img/clients/brands/light/7.png",
     "Image": "/img/clients/brands//07.png",
     "url": "https://cafric.org/"
+  },
+  {
+    "id": 8,
+    "lightImage": "/img/clients/brands/light/8.png",
+    "Image": "/img/clients/brands//08.png",
+    "url": "https://zyaraschoolofhospitality.ac.ke/"
+  },
+  {
+    "id": 2,
+    "lightImage": "/img/clients/brands/light/10.jpg",
+    "Image": "/img/clients/brands//04.png",
+    "url": "https://www.motorhub.co.ke/"
   }
 ]

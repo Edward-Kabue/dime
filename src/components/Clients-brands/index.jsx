@@ -1,20 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Split from '../Split';
-import ClientsBrandsData from '../../data/sections/clients1.json';
+import React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import Split from '../Split'
+import ClientsBrandsData from '../../data/sections/clients1.json'
 
 const ClientsBrands = ({ subBG, theme }) => {
   return (
     <section
       className={`clients-brand section-padding ${subBG ? 'sub-bg' : ''}`}
     >
-      <div className='container'>
+      <div className="container">
         <Slider
-          className=''
-          data-wow-delay='.5s'
+          className=""
+          data-wow-delay=".5s"
           {...{
             dots: false,
             infinite: true,
@@ -45,10 +45,10 @@ const ClientsBrands = ({ subBG, theme }) => {
           }}
         >
           {ClientsBrandsData.map((item, index) => (
-            <div className='brands' key={item.id}>
+            <div className="brands" key={item.id}>
               <h2 style={{ display: 'none' }}> &nbsp; </h2>
               <div
-                className='item'
+                className="item"
                 data-wow-delay={
                   index + 1 == '1'
                     ? '.3s'
@@ -65,16 +65,16 @@ const ClientsBrands = ({ subBG, theme }) => {
                     : ''
                 }
               >
-                <div className='img'>
+                <div className="img">
                   <img
                     src={theme == '' ? item.Image : item.lightImage}
-                    alt=''
+                    alt=""
                   />
                 </div>
                 <Split>
                   <a
                     href={item.url}
-                    className='link words chars splitting'
+                    className="link words chars splitting"
                     data-splitting
                   >
                     {item.url}
@@ -86,7 +86,7 @@ const ClientsBrands = ({ subBG, theme }) => {
         </Slider>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ClientsBrands;
+export default ClientsBrands
