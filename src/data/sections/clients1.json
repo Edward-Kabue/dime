@@ -24,21 +24,27 @@
     "url": "https://www.motorhub.co.ke/"
   },
   {
-    "id": 7,
+    "id": 5,
     "lightImage": "/img/clients/brands/light/7.png",
     "Image": "/img/clients/brands//07.png",
     "url": "https://cafric.org/"
   },
   {
-    "id": 8,
+    "id": 6,
     "lightImage": "/img/clients/brands/light/8.png",
     "Image": "/img/clients/brands//08.png",
     "url": "https://zyaraschoolofhospitality.ac.ke/"
   },
   {
-    "id": 2,
-    "lightImage": "/img/clients/brands/light/10.jpg",
+    "id": 7,
+    "lightImage": "/img/clients/brands/light/2.png",
     "Image": "/img/clients/brands//04.png",
-    "url": "https://www.motorhub.co.ke/"
+    "url": "https://nyotanjema.co.ke/"
+  },
+  {
+    "id": 8,
+    "lightImage": "/img/clients/brands/light/5.png",
+    "Image": "/img/clients/brands//04.png",
+    "url": "https://www.smep.co.ke/"
   }
 ]

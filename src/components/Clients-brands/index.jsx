@@ -62,6 +62,12 @@ const ClientsBrands = ({ subBG, theme }) => {
                     ? '.4s'
                     : index + 1 == '6'
                     ? '.2s'
+                    : index + 1 == '7'
+                    ? '.2s'
+                    : index + 1 == '8'
+                    ? '.2s'
+                    : index + 1 == '9'
+                    ? '.2s'
                     : ''
                 }
               >
