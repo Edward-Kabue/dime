@@ -2,24 +2,24 @@
   {
     "id": 1,
     "title": {
-      "first": "Let us showcase",
-      "second": "Your brand to the world"
+      "first": "We develop, design",
+      "second": "Web and mobile applications"
     },
     "image": "/img/slid/01.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "One stop shop",
-      "second": "For all your digital needs"
+      "first": "We help you",
+      "second": "Come up with exciting content"
     },
     "image": "/img/slid/03.jpeg"
   },
   {
     "id": 3,
     "title": {
-      "first": "Make your ",
-      "second": "Brand stand out"
+      "first": "Quality and creative graphics ",
+      "second": "is our middle name"
     },
     "image": "/img/slid/02.jpeg"
   }

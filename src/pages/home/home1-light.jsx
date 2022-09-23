@@ -49,7 +49,7 @@ const Homepage1 = () => {
   return (
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <IntroWithSlider3 />
+      <IntroWithSlider1 />
       <div ref={MainContent} className="main-content">
         <AboutUs1 />
         <Services4 withPadding />
