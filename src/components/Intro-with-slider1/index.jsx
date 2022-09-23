@@ -20,7 +20,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
     setTimeout(() => {
       setLoad(false)
       removeSlashFromPagination()
-    }, 1000)
+    }, 3000)
   }, [])
 
   const navigationPrevRef = React.useRef(null)
@@ -35,9 +35,9 @@ const IntroWithSlider1 = ({ sliderRef }) => {
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
-            speed={1000}
+            speed={3000}
             autoplay={{
-              delay: 1000,
+              delay: 3000,
               disableOnInteraction: true,
             }}
             parallax={true}
@@ -113,7 +113,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
             ))}
           </Swiper>
         ) : null}
-        <div className="setone setwo">
+        {/* <div className="setone setwo">
           <div
             ref={navigationNextRef}
             className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
@@ -130,9 +130,9 @@ const IntroWithSlider1 = ({ sliderRef }) => {
         <div
           ref={paginationRef}
           className="swiper-pagination top botm custom-font"
-        ></div>
+        ></div> */}
 
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <a href="#0">
             <i className="fab fa-facebook-f"></i>
           </a>
@@ -145,7 +145,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           <a href="#0">
             <i className="fab fa-pinterest-p"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </header>
   )

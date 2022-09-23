@@ -1607,7 +1607,6 @@ body {
 /* ====================== [ End Button Style ] ====================== */
 /* ====================== [ Start navbar ] ====================== */
 .navbar {
-  
   left: 0;
   top: 0;
   padding: 0;
@@ -2079,7 +2078,6 @@ body {
   position: relative;
 }
 .slider.fixed-slider {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
