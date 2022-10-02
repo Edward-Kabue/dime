@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
 import Cursor from '../components/Cursor';
-import ScrollToTop from '../components/Scroll-to-top';
+
 
 import '../styles/globals.css';
 
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Cursor />
       
-      <ScrollToTop />
+      
       <Component {...pageProps} />
 
       <Script id='wow' src='/js/wow.min.js'></Script>
